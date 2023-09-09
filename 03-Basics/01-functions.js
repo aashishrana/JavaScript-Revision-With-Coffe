@@ -19,3 +19,10 @@ addTwoNumber(3 , "a"); // arguments
 addTwoNumber(3 ,5)
 const result = addTwoNumber(5,5);
 console.log("Result is  : ", result );  // output undefined nothing return by the function
+
+
+function loginUserMessage(username) {
+    return `${username} just logged in`
+}
+console.log(loginUserMessage("hitesh"));
+console.log(loginUserMessage());
