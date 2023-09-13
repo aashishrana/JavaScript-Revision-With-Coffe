@@ -9,3 +9,5 @@ if (true) {
 // console.log(a);
 // console.log(b);
 console.log(c);
+
+// never used var in your project
