@@ -7,3 +7,5 @@ Whenever object form by constructor always singelton object
 
 // this refers to the current context 
 // this used only inside object not in function
+
+Immediatly invoked function
