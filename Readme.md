@@ -8,4 +8,4 @@ Whenever object form by constructor always singelton object
 // this refers to the current context 
 // this used only inside object not in function
 
-Immediatly invoked function
+Immediatly invoked function mostly used to connect database atomaatically
