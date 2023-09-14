@@ -19,6 +19,6 @@ const myNewArray = [200 , 400 , 100, 600]
 function returnSecondValue(getArray) {
     return getArray[1]
 }
-
+// you can do in both ways
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200 , 400 , 500 , 1000]));    // in both way you can handle the array by variable and direct
