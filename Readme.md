@@ -9,3 +9,5 @@ Whenever object form by constructor always singelton object
 // this used only inside object not in function
 
 Immediatly invoked function mostly used to connect database atomaatically
+
+Global execution context
