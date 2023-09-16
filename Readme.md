@@ -12,3 +12,5 @@ Immediatly invoked function mostly used to connect database atomaatically
 
 Global execution context
 to run anyline of code gec is necessary this keyword is necessary in memory phase assign the value is undefined
+
+parallely in execution phase assign the values to the variables
