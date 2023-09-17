@@ -14,9 +14,11 @@ console.log(gameName.__proto__);
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf("l"));
 
-console.log(gameName.substring(0 , 4));  // confusion in substring and slice method
+console.log(gameName.substring(0 , 4)); // 0 se only 4 element 
+// -ve index also included
+ // confusion in substring and slice method
 console.log(gameName.slice(-2 , 4));
-
+//in slice negative index start from 1 in the end
 
 const url = "https://hitesh%.com"
 console.log(url.replace("%" , "-"));
