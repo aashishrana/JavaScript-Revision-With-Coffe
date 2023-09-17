@@ -9,3 +9,13 @@ console.table([accountId , accountEmail , accountPassword , accountCity] , accou
 // console.log(accountState);
 
 // prefer not to use var due to block scope and functional scope"
+// var variable can be access from anywhere globally
+
+const score = 200
+var power = "high"
+if(score > 100) {
+    var power = "fly"
+    console.log(`'user power  :${power}'`);  // this is the problem with var you can access from anywhere 
+}
+
+console.log(power); // acces value from nearby
