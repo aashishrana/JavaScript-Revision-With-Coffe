@@ -16,7 +16,7 @@ for (const greet of greeting) {
     // console.log(`Each character is ${greet}`);
 }
 
-// Maps  stores unique values 
+// Maps  stores unique values map are not iteratable
 
 const map = new Map()
 map.set("IN", "India")
