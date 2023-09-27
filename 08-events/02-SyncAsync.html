@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    setTimeout(function() {
+        console.log("Hitesh"); // After the break of 2 second one time print
+    },2000)
+
+    setTimeout(()=>{
+        console.log("Radhe Radhe");
+    }, 1000)
+
+    setInterval(() =>{
+        // console.log("Sita Ram"); //After evry 2 sec print
+    },2000)
+
+    const saySitaRam = function() {
+        // console.log("Sita Ram");
+    }
+
+    setInterval(saySitaRam, 1000);
+
+    const changeText = function() {
+        document.querySelector("h1").innerHTML="Best JavaScript series";
+        // document.querySelector("#stop").innerHTML = "Hello"
+
+    }
+
+    const changeMe= setTimeout(changeText, 2000);
+    // clearTimeout(changeMe);
+
+   document.querySelector('#stop').addEventListener('click', function() {
+    clearTimeout(changeMe);
+    console.log("STOPPED");
+   })
+
+</script>
+</html>
