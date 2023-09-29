@@ -37,7 +37,8 @@
     const changeMe= setTimeout(changeText, 2000);
     // clearTimeout(changeMe);
 
-   document.querySelector('#stop').addEventListener('click', function() {
+   document.querySelector('#stop')
+   .addEventListener('click', function() {
     clearTimeout(changeMe);
     console.log("STOPPED");
    })
