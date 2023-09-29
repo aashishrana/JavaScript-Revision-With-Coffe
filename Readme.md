@@ -18,3 +18,10 @@ parallely in execution phase assign the values to the variables
 after that same process going on the function
 
 and then use call stack
+
+In JavaScript event runs sequentially some exceptions
+in event bubbling propagation start from inside to outside
+to stop propagation e.stopPropagation()
+
+API is just a talking language between 2- systems backend kisi aur ko frontend kisi aur ka 
+backend kisi aur language me frontend kisi aur language me
