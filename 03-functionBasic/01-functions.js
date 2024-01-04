@@ -12,7 +12,8 @@ function sayMyName() {
 // sayMyName()
 
 function addTwoNumber(number1 , number2) { // parameter
-   return console.log(number1 + number2);
+    console.log(number1 + number2);
+     // some confusion
 }
 
 addTwoNumber(3 , "a"); // arguments
@@ -27,4 +28,4 @@ function loginUserMessage(username) {
 console.log(loginUserMessage("hitesh"));
 console.log(loginUserMessage());
 
-// 
+// revision
