@@ -25,3 +25,9 @@ to stop propagation e.stopPropagation()
 
 API is just a talking language between 2- systems backend kisi aur ko frontend kisi aur ka 
 backend kisi aur language me frontend kisi aur language me
+
+
+we will recape promises video once again after some time specially fetch request
+
+
+## constructor function always makes copy not effect original values  
