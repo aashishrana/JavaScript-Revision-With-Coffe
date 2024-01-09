@@ -8,7 +8,7 @@ function sayMyName() {
 }
 
 // sayMyName   function refrence
-//sayMyName()  // function execution
+// sayMyName()  // function execution
 // sayMyName()
 
 function addTwoNumber(number1 , number2) { // parameter
@@ -28,4 +28,4 @@ function loginUserMessage(username) {
 console.log(loginUserMessage("hitesh"));
 console.log(loginUserMessage());
 
-// revision 
+// revision  is going on
