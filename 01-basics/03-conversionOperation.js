@@ -2,7 +2,7 @@ let score = "33";
 let scor2 = "33djfkjs"
 console.log(typeof (score));
 
-let valueInNumber = Number(score);
+let valueInNumber = Number(score); // type casting
 console.log(valueInNumber);
 console.log(typeof (valueInNumber));
 
