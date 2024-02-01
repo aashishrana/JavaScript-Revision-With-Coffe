@@ -7,8 +7,8 @@ function sayMyName() {
     console.log("H");
 }
 
-// sayMyName   function refrence
-// sayMyName()  // function execution
+ sayMyName  // function refrence
+ sayMyName()  // function execution
 // sayMyName()
 
 function addTwoNumber(number1 , number2) { // parameter
