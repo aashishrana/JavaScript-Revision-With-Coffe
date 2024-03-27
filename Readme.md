@@ -33,3 +33,7 @@ we will recape promises video once again after some time specially fetch request
 
 
 ## constructor function always makes copy not effect original values  
+
+The primary purpose of the V8 engine is to execute JavaScript code in these environments.
+
+The V8 engine is responsible for translating JavaScript code into machine code that the computer's processor can execute. It uses Just-In-Time (JIT) compilation to optimize the performance of JavaScript execution.
