@@ -27,6 +27,8 @@ API is just a talking language between 2- systems backend kisi aur ko frontend k
 backend kisi aur language me frontend kisi aur language me
 
 
+In summary, API requests and the V8 engine are both essential components of modern web development. API requests enable communication and data exchange between clients and servers, while the V8 engine optimizes the execution of JavaScript code, making it possible to build fast and efficient web applications
+
 we will recape promises video once again after some time specially fetch request
 
 
