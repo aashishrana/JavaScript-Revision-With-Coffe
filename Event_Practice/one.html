@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Amazing images </h2>
+
+    <div>
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        let japanRefrence = function() {
+            alert("japan clicked");
+        }
+
+        document.getElementById("owl").onclick = function() {  // not much good only few functionality or events
+            alert("owl clicked");
+        }
+
+        // document.getElementById("japan").addEventListener("click" , function() {
+        //     alert("japan image clicked");        
+        // })
+
+        document.getElementById("japan").addEventListener("click", japanRefrence);    // many functionality and events
+        document.querySelector("#prayer").addEventListener("mouseover", function(){
+            alert("river over not clicked");
+        })
+
+        document.querySelector("h2").addEventListener("mouseover", function(e) {
+            this.innerText = "chang the h2 content inside tag";
+            console.log(e.target.tagname);
+        }, false)
+    </script>
+</body>
+</html>
